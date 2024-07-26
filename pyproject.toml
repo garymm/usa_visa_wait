@@ -1,0 +1,10 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "usa_visa_wait"
+authors = [{ name = "Gary Mindlin Miguel", email = "garymm@garymm.org" }]
+requires-python = ">=3.11"
+dynamic = ["version"]
+dependencies = ["pandas", "beautifulsoup4", "requests", "geopy", "ipykernel"]
